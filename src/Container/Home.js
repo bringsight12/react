@@ -1,5 +1,5 @@
 import React from "react";
-import { CardComponent } from "../views/CardComponent";
+import CardComponent from "../views/CardComponent";
 
 const Home = () => {
   return (
@@ -8,7 +8,7 @@ const Home = () => {
         <h1>Menu Ayam Bakar Variasi</h1>
       </div>
       <div className="flex w-full flex-wrap">
-        <CardComponent
+        {/* <CardComponent
           link='/profile'
           time="20000"
           title="Ayam Bakar sambal Trasi"
@@ -42,7 +42,8 @@ const Home = () => {
           title="Ayam Rendang"
           desc="Ayam bakar yang dimasak dengan waktu cukup 1,5jam dan di hidangkan dengan nasi hangat agar lebih sedap"
           img="https://cdn0-production-images-kly.akamaized.net/430DW44VwFSShz9CfnO5NmVi_wM=/1200x675/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2473937/original/044015000_1543294391-resep-sederhana-redang-ayam-lezat-dan-hemat.jpg"
-        />
+        /> */}
+        <CardComponent/>
       </div>
     </div>
   );
